@@ -9,6 +9,14 @@
 
 [MaBeee](http://mabeee.mobi/) voice controller for iOS
 
+## Usage
+
+1. Set MaBeee to Pra-rail or other train toys.
+2. Run MaBeeeAllAboard app.
+3. Tap `Settings` button and try to connect MaBeee.
+4. Tap `Rec` button and say "出発進行(Shuppatsu-shinko)"
+5. Pra-rail moves!
+
 ## Requirements
 
 - iOS 10.0+
