@@ -9,6 +9,8 @@
 
 [MaBeee](http://mabeee.mobi/) voice controller for iOS
 
+![Demo](Images/ScreenShot2.png)
+
 ## Usage
 
 1. Set MaBeee to Pra-rail or other train toys.
@@ -22,7 +24,11 @@
 - iOS 10.0+
 - Xcode 8
 - Swift 3
-- [MaBeee SDK](https://github.com/novars-jp/MaBeeeiOSSDK)
+- [MaBeeeiOSSDK](https://github.com/novars-jp/MaBeeeiOSSDK)
+
+## Demo
+
+https://youtu.be/HX1aOEDfA9k
 
 ## License
 
