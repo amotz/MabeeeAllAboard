@@ -121,15 +121,19 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             var isFinal = false
             
             if let result = result {
-                let resultString = result.bestTranscription.formattedString
-                self.speechLabel.text = resultString
-                
-                // Control MaBeee by result bestTranscription
-                if self.startWords.contains(resultString){
+                var resultString = result.bestTranscription.formattedString
+                let results = Set(result.transcriptions.map({$0.formattedString}))
+
+                // Control MaBeee by transcriptions
+                if results.intersection(self.startWords).count > 0{
+                    resultString = results.intersection(self.startWords).first!
                     self.startMaBeee()
-                } else if self.stopWords.contains(resultString){
+                } else if results.intersection(self.stopWords).count > 0{
+                    resultString = results.intersection(self.stopWords).first!
                     self.stopMaBeee()
                 }
+                self.speechLabel.text = resultString
+
                 isFinal = result.isFinal
             }
             
