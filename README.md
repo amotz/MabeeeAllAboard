@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-ios%2010.0+-lightgrey.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
-[![Language](https://img.shields.io/badge/language-swift%203-orange.svg?style=flat
+[![Language](https://img.shields.io/badge/language-swift%204-orange.svg?style=flat
 )](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 )](LICENSE)
@@ -23,7 +23,7 @@
 
 - iOS 10.0+
 - Xcode 8
-- Swift 3
+- Swift 4
 - [MaBeeeiOSSDK](https://github.com/novars-jp/MaBeeeiOSSDK)
 
 ## Demo
