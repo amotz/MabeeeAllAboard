@@ -16,16 +16,6 @@
 		F3D4CE291E250EDE007514D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D4CE271E250EDE007514D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F3D4CE301E250EDE007514D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3D4CE131E250EDD007514D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3D4CE1A1E250EDD007514D7;
-			remoteInfo = MabeeeAllAboard;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		F37618931E3639C500CE889E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -49,7 +39,6 @@
 		F3D4CE251E250EDE007514D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D4CE281E250EDE007514D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3D4CE2A1E250EDE007514D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D4CE2F1E250EDE007514D7 /* MabeeeAllAboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MabeeeAllAboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +47,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37618911E3639C500CE889E /* MaBeeeSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3D4CE2C1E250EDE007514D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				F3D4CE1B1E250EDD007514D7 /* MabeeeAllAboard.app */,
-				F3D4CE2F1E250EDE007514D7 /* MabeeeAllAboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,24 +104,6 @@
 			productReference = F3D4CE1B1E250EDD007514D7 /* MabeeeAllAboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3D4CE2E1E250EDE007514D7 /* MabeeeAllAboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3D4CE3B1E250EDE007514D7 /* Build configuration list for PBXNativeTarget "MabeeeAllAboardTests" */;
-			buildPhases = (
-				F3D4CE2B1E250EDE007514D7 /* Sources */,
-				F3D4CE2C1E250EDE007514D7 /* Frameworks */,
-				F3D4CE2D1E250EDE007514D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3D4CE311E250EDE007514D7 /* PBXTargetDependency */,
-			);
-			name = MabeeeAllAboardTests;
-			productName = MabeeeAllAboardTests;
-			productReference = F3D4CE2F1E250EDE007514D7 /* MabeeeAllAboardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,13 +117,8 @@
 					F3D4CE1A1E250EDD007514D7 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = U2D56V4SW4;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
-					};
-					F3D4CE2E1E250EDE007514D7 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = U2D56V4SW4;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F3D4CE1A1E250EDD007514D7;
 					};
 				};
 			};
@@ -178,7 +136,6 @@
 			projectRoot = "";
 			targets = (
 				F3D4CE1A1E250EDD007514D7 /* MabeeeAllAboard */,
-				F3D4CE2E1E250EDE007514D7 /* MabeeeAllAboardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,13 +151,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D4CE2D1E250EDE007514D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,22 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D4CE2B1E250EDE007514D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F3D4CE311E250EDE007514D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3D4CE1A1E250EDD007514D7 /* MabeeeAllAboard */;
-			targetProxy = F3D4CE301E250EDE007514D7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3D4CE221E250EDE007514D7 /* Main.storyboard */ = {
@@ -358,7 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amotz.MabeeeAllAboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -375,37 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amotz.MabeeeAllAboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		F3D4CE3C1E250EDE007514D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = U2D56V4SW4;
-				INFOPLIST_FILE = MabeeeAllAboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amotz.MabeeeAllAboardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MabeeeAllAboard.app/MabeeeAllAboard";
-			};
-			name = Debug;
-		};
-		F3D4CE3D1E250EDE007514D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = U2D56V4SW4;
-				INFOPLIST_FILE = MabeeeAllAboardTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amotz.MabeeeAllAboardTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MabeeeAllAboard.app/MabeeeAllAboard";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -426,15 +331,6 @@
 			buildConfigurations = (
 				F3D4CE391E250EDE007514D7 /* Debug */,
 				F3D4CE3A1E250EDE007514D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3D4CE3B1E250EDE007514D7 /* Build configuration list for PBXNativeTarget "MabeeeAllAboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3D4CE3C1E250EDE007514D7 /* Debug */,
-				F3D4CE3D1E250EDE007514D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
